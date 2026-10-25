@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.8 with minecraft:compass[minecraft:lodestone_tracker={target:{pos:[I;$(x),$(y),$(z)],dimension:"minecraft:overworld"},tracked:false},minecraft:custom_name='{"text":"Rastreador de Jogador","color":"gold","italic":false}']

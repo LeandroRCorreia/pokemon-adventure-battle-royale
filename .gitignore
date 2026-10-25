@@ -1,0 +1,70 @@
+# Minecraft/Fabric runtime and caches
+**/.fabric/
+**/.mixin.out/
+**/logs/
+**/crash-reports/
+**/downloads/
+**/stackdeobf_mappings/
+**/showdown/
+
+# Downloaded third-party content (recreated from manifest.json)
+**/mods/
+**/resourcepacks/
+**/shaderpacks/
+**/licenses/
+**/datapacks/
+
+# Keep the Battle Royale datapack developed in this repository
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/cobblemon_br_datapack/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/cobblemon_br_datapack/**
+
+# Generated world data and player state
+**/saves/**
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/cobblemon_br_datapack/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/cobblemon_br_datapack/**
+
+# Launcher and local user data
+**/.curseclient
+**/minecraftinstance.json
+**/command_history.txt
+**/options.txt
+**/servers.dat
+**/servers.dat_old
+**/usercache.json
+**/defaultoptions.journal.json
+**/fancymenu_data/
+**/xaero/
+**/XaeroWaypoints_BACKUP*/
+**/cobblenav/
+**/legendary-monuments-data/
+**/data/
+
+# The unpacked instance is ignored by default. Explicit project files are added below.
+COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/*
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/manifest.json
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/modlist.html
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/cobblemon_br_datapack/
+!COBBLEVERSE - Pokemon Adventure \[Cobblemon\]/saves/BattleRoyale/datapacks/cobblemon_br_datapack/**
+
+# IDE and operating system
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.log
+*.log.gz
+*.lock
